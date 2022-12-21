@@ -1,0 +1,22 @@
+.navbar {
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .navbar__logo_text {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #111;
+    font-family: "PPNeue";
+  }
+  .navbar__menu {
+    display: block;
+    div {
+      width: 25px;
+      height: 2.4px;
+      margin-top: 5px;
+      background-color: #111;
+    }
+  }
+}

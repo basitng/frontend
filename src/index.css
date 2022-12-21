@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Nature";
+  src: url("./assets/fonts/NON-Natural-Grotesk-Medium2.woff2");
+}
+@font-face {
+  font-family: "PPNeue";
+  src: url("./assets/fonts/PPNeueMontreal-Book1.woff2");
+}
+@font-face {
+  font-family: "PPNeue2";
+  src: url("./assets/fonts/PPNeueMontreal-Medium2.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nature";
+  background-color: #f1f1f1;
+}
+h1 {
+  font-size: 10rem;
+}

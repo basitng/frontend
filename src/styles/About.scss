@@ -1,0 +1,47 @@
+.about__container {
+  padding: 100px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh;
+  .heading {
+    text-align: center;
+    letter-spacing: 0.6rem;
+    font-weight: 600;
+    font-size: 10rem;
+    color: #11111140;
+    text-transform: uppercase;
+  }
+  .heading_2 {
+    color: #111111;
+    @extend .heading;
+    span {
+      color: #11111140;
+    }
+  }
+  .leading_2 {
+    @extend .leading_2;
+    max-width: 50%;
+    text-align: center;
+  }
+  .leading {
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 200;
+    font-family: "PPNeue";
+  }
+  .grid_2 {
+    display: grid;
+    padding-top: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    img {
+      width: 100%;
+    }
+  }
+  .image__grid {
+    @extend .grid_2;
+  }
+}

@@ -1,0 +1,42 @@
+.about__container {
+  padding: 100px 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 80vh;
+}
+.about__container .heading, .about__container .heading_2 {
+  text-align: center;
+  letter-spacing: 0.6rem;
+  font-weight: 600;
+  font-size: 10rem;
+  color: rgba(17, 17, 17, 0.2509803922);
+  text-transform: uppercase;
+}
+.about__container .heading_2 {
+  color: #111111;
+}
+.about__container .heading_2 span {
+  color: rgba(17, 17, 17, 0.2509803922);
+}
+.about__container .leading_2 {
+  max-width: 50%;
+  text-align: center;
+}
+.about__container .leading {
+  line-height: 2.5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 200;
+  font-family: "PPNeue";
+}
+.about__container .grid_2, .about__container .image__grid {
+  display: grid;
+  padding-top: 3rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.about__container .grid_2 img, .about__container .image__grid img {
+  width: 100%;
+}
